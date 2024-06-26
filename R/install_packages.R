@@ -12,7 +12,7 @@ packages <- c(
   "terra",
   "tictoc",
   "tidyterra",
-  "tidyverse",
+  "tidyverse"
 )
 
 ## Install the packages
