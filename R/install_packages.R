@@ -4,6 +4,7 @@ install.packages("pak")
 
 ## List the rest of the packages
 packages <- c(
+  "fs",
   "giscoR",
   "mapview",
   "rsi",
