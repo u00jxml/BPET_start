@@ -10,7 +10,6 @@
 
 # 1. Load packages --------------------------------------------------------
 
-library(rsi)
 library(sf)
 library(terra)
 library(tictoc)
@@ -27,18 +26,11 @@ library(tidyverse)
 
 # 3. Data analysis --------------------------------------------------------
 
-## Vegetation index name
-sel_vi <- "NDVI"
-
-## 3.1. Calculate NDVI --------------------------
-
-## Filter NDVI
-
-
 ## Calculate NDVI
+## Formula: NDVI = (N - R) / (N + R)
 
 
-## Read the file
+## Rename band
 
 
 # 4. Results --------------------------------------------------------------
